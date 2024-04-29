@@ -1,0 +1,16 @@
+Pseudocode:
+
+Split screen into gray, green start, green end, and black boundary portions
+
+-Draw object blue square on left side of screen
+--To be controlled by player, by either 'w', 'a', 's', 'd' or 'up', 'down', 'left', 'right'
+-Draw object(s) red square(s) on the gray screen
+--Red squares move vertically, constantly
+-Draw object(s) yellow square(s) on the gray screen
+--Yellow squares move diagonally, reflected back by both the green start, green end, and black boundary
+-Draw object(s) pink square(s)
+--Pink square(s) make up a 4 headed rotation, of variable length from 4-8, and sometimes with gaps between them
+
+Display 'Press enter to start'
+Display 'Level'
+-Increment level after every level
